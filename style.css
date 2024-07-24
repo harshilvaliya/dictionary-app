@@ -104,6 +104,14 @@ header .tagline {
   gap: 1rem;
 }
 
+/* Audio controls styling */
+audio {
+  width: 100%; /* Ensures audio controls are responsive */
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem; /* Space above the audio controls */
+}
+
 /* Responsive design */
 @media (max-width: 1200px) {
   .app-container {
@@ -125,6 +133,10 @@ header .tagline {
 
   .result-card {
     padding: 1.8rem;
+  }
+
+  audio {
+    width: 50%; /* Adjust size for large screens */
   }
 }
 
@@ -148,6 +160,10 @@ header .tagline {
 
   .result-card {
     padding: 1.6rem;
+  }
+
+  audio {
+    width: 60%; /* Adjust size for medium-large screens */
   }
 }
 
@@ -173,6 +189,10 @@ header .tagline {
   .result-card {
     padding: 1.4rem;
   }
+
+  audio {
+    width: 70%; /* Adjust size for tablets */
+  }
 }
 
 @media (max-width: 600px) {
@@ -197,6 +217,10 @@ header .tagline {
   .result-card {
     padding: 1.2rem;
   }
+
+  audio {
+    width: 80%; /* Adjust size for smaller tablets and large phones */
+  }
 }
 
 @media (max-width: 400px) {
@@ -208,5 +232,9 @@ header .tagline {
 
   .result-card {
     padding: 1rem;
+  }
+
+  audio {
+    width: 90%; /* Adjust size for mobile phones */
   }
 }
